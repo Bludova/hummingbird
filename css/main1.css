@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+
+  -webkit-font-smoothing: antialiased
+  -webkit-overflow-scrolling: touch;
+
+  margin-top: 70px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #333;
+}
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+a {
+  color: #557715;
+  /*color: #f85c37;*/
+}
+
+a:hover, a:focus {
+  color: #7fb221;
+  text-decoration: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-inverse {
+  color: #9e2d32;
+  background-color:  #2d2d2d;
+  border-color: #2d2d2d;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a{
+  border: 1px solid #2d2d2d;
+  background-color: #557715;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a:hover{
+  background-color: #7cb020;
+}
+
+.navbar-collapse .collapse {
+  display: inline-block;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #557715;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #7fb221;
+}
+#headerwrap {
+  background: url(../img/special.jpg) no-repeat center top;
+  margin-top: -40px;
+  padding-top: 40px;
+  text-align: center;
+  background-attachment: relative:
+  background-position: center center;
+  min-height: 600px;
+  width: 100%;
+
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headerwrap  h1 {
+  margin-top: 110px;
+  color: white;
+  font-size: 5.9rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+  opacity: 0.9;
+  padding-top: 10%;
+  color: #ffffff;
+  font-size: 5.2rem;
+}
+
+  #headerwrap  h2 {
+  opacity: 0.9;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-size: 4.1rem;
+}
+
+.w {
+  padding-top: 35px;
+}
+
+.w h4 {
+  font-size: 27px;
+}
+
+#dg {
+  background-color: #e0e0e0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#dg h4 {
+  font-size: 40px;
+}
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+.wb {
+  margin-bottom: 0;
+}
+
+.wb h4{
+  font-size: 35px;
+}
+
+.wb p{
+  font-size: 22px;
+}
+
+.wb ul{
+  font-size: 18px;
+  list-style-type: none;
+  text-align: left;
+  padding-left: 27%;
+}
+
+.wb li:before {
+    content: "- "; /* Добавляем в качестве маркера символ */
+   }
+
+    .s h4{
+  font-weight: 500;
+  font-size: 28px;
+
+}
+
+
+.s p {
+  margin: 0 18%;
+  font-weight: 600;
+  font-size: 19px;
+
+}
+ .s h1 {
+  color: #9e2d32;
+  font-size: 42px;
+
+}
+
+.s img {
+  width: 50%;
+}
+
+.services> div {
+  margin-top: 40px;
+}
+#lg {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#lg h4 {
+  font-size: 3.2rem;
+  padding-bottom: 21%;
+}
+
+#lg p {
+  font-size: 16px;
+  padding-top: 10%;
+}
+
+#r {
+ /* background-color: #9e2d32 #ff7878;*/
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
+#r h4 {
+  margin-bottom: 120px;
+  letter-spacing: -1px;
+  /*color: white;*/
+  color: #9e2d32;
+  font-size: 43px;
+}
+
+
+#r p {
+  color: #2d2d2d;
+  /*color: white;*/
+  font-size: 20px;
+}
+
+.strong {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 29px;
+}
+
+
+#f {
+  background-color: #2d2d2d;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#f i {
+  color: #bdbdbd;
+  font-size: 30px;
+  padding: 10px;
+}
+
+#f a {
+  padding: 30px;
+}
+
+
+#f i:hover{
+  color: #7fb221;
+}
+
+
+#f p {
+  padding-top: 12px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .s >p {
+    text-align: left;
+    width: 100%;
+  /*margin: 0 -12%;*/
+  font-weight: 400;
+  font-size: 22px;
+  }
+
+  .s h1{
+    font-size: 34px;
+  }
+
+  .s .services {
+     margin: 0 2%;
+     width: 100%;
+  }
+    .s .services img {
+     /* margin: 0;*/
+     width: 100%;
+   }
+    .s .services p {
+      margin: 0;
+     width: 100%;
+  }
+
+      #r h4 {
+      font-size: 37px;
+      margin-bottom: 50px;
+  }
+
+  #r p {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+}
+
